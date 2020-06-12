@@ -19,7 +19,7 @@ var game1 = document.getElementById("game");
 
 
 window.onload = function() {
-  document.body.appendChild(canvas);
+  game1.appendChild(canvas);
   animate(step);
   
 };

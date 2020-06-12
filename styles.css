@@ -1,0 +1,69 @@
+body{
+  font-family: 'Sarabun', sans-serif;
+}
+
+header{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  background-size: cover;
+  color: white;
+}
+
+.about{
+  height: 100vh;
+  display: flex;
+}
+
+.about-title{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.about-pages{
+  width: 50%;
+}
+
+.about-pages div{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.about-pages div> p{
+  width: 80%;
+  font-size: 18px;
+  line-height:30px;
+
+}
+
+.game1{
+  
+}
+
+.about-pages div:nth-child(1){
+  background-color: green;
+}
+.about-pages div:nth-child(2){
+  background-color: yellow;
+}
+.about-pages div:nth-child(3){
+  background-color: blue;
+}
+
+footer{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
